@@ -736,7 +736,7 @@ const CollectionDashboard = () => {
               </p>
               <p className="text-sm text-red-600">
                 Critical: ₹{dashboardData.outstandingDues.critical.toLocaleString()} 
-                ({dashboardData.outstandingDues.criticalPatients} patients >90 days)
+                ({dashboardData.outstandingDues.criticalPatients} patients &gt;90 days)
               </p>
             </div>
           </div>
