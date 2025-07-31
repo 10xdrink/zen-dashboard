@@ -254,50 +254,6 @@ const Sidebar: React.FC = () => {
         { title: 'Financial Dashboards', icon: <LayoutGrid className="h-4 w-4" />, path: '/finance/dashboards' },
       ],
     },
-    {
-      title: 'Marketing',
-      icon: <BarChart2 className="h-5 w-5" />,
-      expanded: false,
-      submenu: [
-        { title: 'Campaigns', icon: <Send className="h-4 w-4" />, path: '/marketing/campaigns' },
-        { title: 'Promotions', icon: <Gift className="h-4 w-4" />, path: '/marketing/promotions' },
-        { title: 'Loyalty Program', icon: <Award className="h-4 w-4" />, path: '/marketing/loyalty' },
-        { title: 'Analytics', icon: <BarChart className="h-4 w-4" />, path: '/marketing/analytics' },
-      ],
-    },
-    {
-      title: 'Reports',
-      icon: <FileText className="h-5 w-5" />,
-      expanded: false,
-      submenu: [
-        { title: 'Standard Reports', icon: <FileText className="h-4 w-4" />, path: '/reports/standard' },
-        { title: 'Custom Reports', icon: <FileText className="h-4 w-4" />, path: '/reports/custom' },
-        { title: 'Analytics', icon: <LineChart className="h-4 w-4" />, path: '/reports/analytics' },
-        { title: 'Export', icon: <FileBarChart className="h-4 w-4" />, path: '/reports/export' },
-      ],
-    },
-    {
-      title: 'Settings',
-      icon: <Settings className="h-5 w-5" />,
-      expanded: false,
-      submenu: [
-        { title: 'System Configuration', icon: <Sliders className="h-4 w-4" />, path: '/settings/system' },
-        { title: 'User Management', icon: <UserCog className="h-4 w-4" />, path: '/settings/users' },
-        { title: 'Compliance', icon: <ShieldCheck className="h-4 w-4" />, path: '/settings/compliance' },
-        { title: 'Integration', icon: <Link2 className="h-4 w-4" />, path: '/settings/integration' },
-      ],
-    },
-    {
-      title: 'Support',
-      icon: <HelpCircle className="h-5 w-5" />,
-      expanded: false,
-      submenu: [
-        { title: 'Help Center', icon: <HelpCircleIcon className="h-4 w-4" />, path: '/support/help' },
-        { title: 'Training', icon: <FileText className="h-4 w-4" />, path: '/support/training' },
-        { title: 'Contact Support', icon: <MessageSquare className="h-4 w-4" />, path: '/support/contact' },
-        { title: 'System Status', icon: <Activity className="h-4 w-4" />, path: '/support/status' },
-      ],
-    },
   ]);
 
   const toggleSubmenu = (index: number) => {
